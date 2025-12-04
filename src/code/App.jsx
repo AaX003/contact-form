@@ -140,7 +140,7 @@ function ContactForm() {
       {success && (
         <div className="backdrop">
           <div className="success-msg-wrapper">
-            <p className="sucess-msg">{success}</p>
+            <p className="success-msg">{success}</p>
           </div>
         </div>
       )}
