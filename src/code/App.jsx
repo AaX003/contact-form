@@ -21,7 +21,7 @@ function ContactForm() {
 
     // try...catch
     try {
-      const response = await fetch("https://formspree.io/f/xgvgyrpk", {
+      const response = await fetch("", { // **copy/paste your own form endpoint url here**
         method: "POST", // sends messages
         headers: {
           "Content-Type": "application/json",
